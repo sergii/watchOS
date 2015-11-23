@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HelloWorld WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>HelloWorld.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DC4BC7F21C032372000AC034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC4BC8061C032373000AC034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC4BC8111C032373000AC034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC4BC81A1C032373000AC034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
