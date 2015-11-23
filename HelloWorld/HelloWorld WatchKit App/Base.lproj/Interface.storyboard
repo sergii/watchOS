@@ -8,7 +8,14 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloWorld_WatchKit_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloWorld_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Hello, World!" id="8hX-wT-ZtX"/>
+                    </items>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="8hX-wT-ZtX" id="9iR-UJ-TFn"/>
+                    </connections>
+                </controller>
             </objects>
         </scene>
     </scenes>
