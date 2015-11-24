@@ -9,5 +9,9 @@ From zero to hero on watchOS. A repo that will go step by step from a simple "He
 
 > **Description**: "Hello, World" text on label changes to "Hello, watchOS" text through code.
 
+* [TikTok](https://github.com/gpessios/watchOS/tree/master/TikTok)
+
+> **Description**: A 60 seconds countdown timer can be set ON/OFF from a WKInterfaceButton action.
+
 ### Author
 * [Georgios Pessios](http://gpessios.com/)
