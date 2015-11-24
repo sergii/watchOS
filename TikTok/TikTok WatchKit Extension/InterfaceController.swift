@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+  @IBOutlet var timer: WKInterfaceTimer!
+  @IBOutlet var startStopButton: WKInterfaceButton!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -27,5 +29,14 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+  
+  @IBAction func onButtonAction() {
+    let countdown: NSTimeInterval = 60
+    let date = NSDate(timeIntervalSinceNow: countdown)
+    timer.setDate(date)
+    timer.start()
+  
+  }
+  
 
 }
