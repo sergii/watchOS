@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4BC9141C0497C3000AC034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BC9131C0497C3000AC034 /* AppDelegate.swift */; };
+		DC4BC9161C0497C3000AC034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BC9151C0497C3000AC034 /* ViewController.swift */; };
+		DC4BC9191C0497C3000AC034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4BC9171C0497C3000AC034 /* Main.storyboard */; };
+		DC4BC91B1C0497C3000AC034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4BC91A1C0497C3000AC034 /* Assets.xcassets */; };
+		DC4BC91E1C0497C3000AC034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4BC91C1C0497C3000AC034 /* LaunchScreen.storyboard */; };
+		DC4BC9291C0497C3000AC034 /* TikTokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BC9281C0497C3000AC034 /* TikTokTests.swift */; };
+		DC4BC9341C0497C3000AC034 /* TikTokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BC9331C0497C3000AC034 /* TikTokUITests.swift */; };
+		DC4BC9391C0497C3000AC034 /* TikTok WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DC4BC9381C0497C3000AC034 /* TikTok WatchKit App.app */; };
+		DC4BC93F1C0497C3000AC034 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4BC93D1C0497C3000AC034 /* Interface.storyboard */; };
+		DC4BC9411C0497C3000AC034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4BC9401C0497C3000AC034 /* Assets.xcassets */; };
+		DC4BC9481C0497C3000AC034 /* TikTok WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC4BC9471C0497C3000AC034 /* TikTok WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC4BC94D1C0497C3000AC034 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BC94C1C0497C3000AC034 /* InterfaceController.swift */; };
+		DC4BC94F1C0497C3000AC034 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BC94E1C0497C3000AC034 /* ExtensionDelegate.swift */; };
+		DC4BC9511C0497C3000AC034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4BC9501C0497C3000AC034 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4BC9251C0497C3000AC034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4BC9081C0497C2000AC034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4BC90F1C0497C2000AC034;
+			remoteInfo = TikTok;
+		};
+		DC4BC9301C0497C3000AC034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4BC9081C0497C2000AC034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4BC90F1C0497C2000AC034;
+			remoteInfo = TikTok;
+		};
+		DC4BC93A1C0497C3000AC034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4BC9081C0497C2000AC034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4BC9371C0497C3000AC034;
+			remoteInfo = "TikTok WatchKit App";
+		};
+		DC4BC9491C0497C3000AC034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4BC9081C0497C2000AC034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4BC9461C0497C3000AC034;
+			remoteInfo = "TikTok WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC4BC9581C0497C3000AC034 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC4BC9481C0497C3000AC034 /* TikTok WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC95C1C0497C3000AC034 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DC4BC9391C0497C3000AC034 /* TikTok WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC4BC9101C0497C3000AC034 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4BC9131C0497C3000AC034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC4BC9151C0497C3000AC034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC4BC9181C0497C3000AC034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4BC91A1C0497C3000AC034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4BC91D1C0497C3000AC034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4BC91F1C0497C3000AC034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4BC9241C0497C3000AC034 /* TikTokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4BC9281C0497C3000AC034 /* TikTokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokTests.swift; sourceTree = "<group>"; };
+		DC4BC92A1C0497C3000AC034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4BC92F1C0497C3000AC034 /* TikTokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4BC9331C0497C3000AC034 /* TikTokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokUITests.swift; sourceTree = "<group>"; };
+		DC4BC9351C0497C3000AC034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4BC9381C0497C3000AC034 /* TikTok WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TikTok WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4BC93E1C0497C3000AC034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DC4BC9401C0497C3000AC034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4BC9421C0497C3000AC034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4BC9471C0497C3000AC034 /* TikTok WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TikTok WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4BC94C1C0497C3000AC034 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DC4BC94E1C0497C3000AC034 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DC4BC9501C0497C3000AC034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4BC9521C0497C3000AC034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4BC90D1C0497C2000AC034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9211C0497C3000AC034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC92C1C0497C3000AC034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9441C0497C3000AC034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4BC9071C0497C2000AC034 = {
+			isa = PBXGroup;
+			children = (
+				DC4BC9121C0497C3000AC034 /* TikTok */,
+				DC4BC9271C0497C3000AC034 /* TikTokTests */,
+				DC4BC9321C0497C3000AC034 /* TikTokUITests */,
+				DC4BC93C1C0497C3000AC034 /* TikTok WatchKit App */,
+				DC4BC94B1C0497C3000AC034 /* TikTok WatchKit Extension */,
+				DC4BC9111C0497C3000AC034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4BC9111C0497C3000AC034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BC9101C0497C3000AC034 /* TikTok.app */,
+				DC4BC9241C0497C3000AC034 /* TikTokTests.xctest */,
+				DC4BC92F1C0497C3000AC034 /* TikTokUITests.xctest */,
+				DC4BC9381C0497C3000AC034 /* TikTok WatchKit App.app */,
+				DC4BC9471C0497C3000AC034 /* TikTok WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4BC9121C0497C3000AC034 /* TikTok */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BC9131C0497C3000AC034 /* AppDelegate.swift */,
+				DC4BC9151C0497C3000AC034 /* ViewController.swift */,
+				DC4BC9171C0497C3000AC034 /* Main.storyboard */,
+				DC4BC91A1C0497C3000AC034 /* Assets.xcassets */,
+				DC4BC91C1C0497C3000AC034 /* LaunchScreen.storyboard */,
+				DC4BC91F1C0497C3000AC034 /* Info.plist */,
+			);
+			path = TikTok;
+			sourceTree = "<group>";
+		};
+		DC4BC9271C0497C3000AC034 /* TikTokTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BC9281C0497C3000AC034 /* TikTokTests.swift */,
+				DC4BC92A1C0497C3000AC034 /* Info.plist */,
+			);
+			path = TikTokTests;
+			sourceTree = "<group>";
+		};
+		DC4BC9321C0497C3000AC034 /* TikTokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BC9331C0497C3000AC034 /* TikTokUITests.swift */,
+				DC4BC9351C0497C3000AC034 /* Info.plist */,
+			);
+			path = TikTokUITests;
+			sourceTree = "<group>";
+		};
+		DC4BC93C1C0497C3000AC034 /* TikTok WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BC93D1C0497C3000AC034 /* Interface.storyboard */,
+				DC4BC9401C0497C3000AC034 /* Assets.xcassets */,
+				DC4BC9421C0497C3000AC034 /* Info.plist */,
+			);
+			path = "TikTok WatchKit App";
+			sourceTree = "<group>";
+		};
+		DC4BC94B1C0497C3000AC034 /* TikTok WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BC94C1C0497C3000AC034 /* InterfaceController.swift */,
+				DC4BC94E1C0497C3000AC034 /* ExtensionDelegate.swift */,
+				DC4BC9501C0497C3000AC034 /* Assets.xcassets */,
+				DC4BC9521C0497C3000AC034 /* Info.plist */,
+			);
+			path = "TikTok WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4BC90F1C0497C2000AC034 /* TikTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4BC95D1C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTok" */;
+			buildPhases = (
+				DC4BC90C1C0497C2000AC034 /* Sources */,
+				DC4BC90D1C0497C2000AC034 /* Frameworks */,
+				DC4BC90E1C0497C2000AC034 /* Resources */,
+				DC4BC95C1C0497C3000AC034 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4BC93B1C0497C3000AC034 /* PBXTargetDependency */,
+			);
+			name = TikTok;
+			productName = TikTok;
+			productReference = DC4BC9101C0497C3000AC034 /* TikTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4BC9231C0497C3000AC034 /* TikTokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4BC9601C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTokTests" */;
+			buildPhases = (
+				DC4BC9201C0497C3000AC034 /* Sources */,
+				DC4BC9211C0497C3000AC034 /* Frameworks */,
+				DC4BC9221C0497C3000AC034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4BC9261C0497C3000AC034 /* PBXTargetDependency */,
+			);
+			name = TikTokTests;
+			productName = TikTokTests;
+			productReference = DC4BC9241C0497C3000AC034 /* TikTokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC4BC92E1C0497C3000AC034 /* TikTokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4BC9631C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTokUITests" */;
+			buildPhases = (
+				DC4BC92B1C0497C3000AC034 /* Sources */,
+				DC4BC92C1C0497C3000AC034 /* Frameworks */,
+				DC4BC92D1C0497C3000AC034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4BC9311C0497C3000AC034 /* PBXTargetDependency */,
+			);
+			name = TikTokUITests;
+			productName = TikTokUITests;
+			productReference = DC4BC92F1C0497C3000AC034 /* TikTokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DC4BC9371C0497C3000AC034 /* TikTok WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4BC9591C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTok WatchKit App" */;
+			buildPhases = (
+				DC4BC9361C0497C3000AC034 /* Resources */,
+				DC4BC9581C0497C3000AC034 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4BC94A1C0497C3000AC034 /* PBXTargetDependency */,
+			);
+			name = "TikTok WatchKit App";
+			productName = "TikTok WatchKit App";
+			productReference = DC4BC9381C0497C3000AC034 /* TikTok WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DC4BC9461C0497C3000AC034 /* TikTok WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4BC9551C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTok WatchKit Extension" */;
+			buildPhases = (
+				DC4BC9431C0497C3000AC034 /* Sources */,
+				DC4BC9441C0497C3000AC034 /* Frameworks */,
+				DC4BC9451C0497C3000AC034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TikTok WatchKit Extension";
+			productName = "TikTok WatchKit Extension";
+			productReference = DC4BC9471C0497C3000AC034 /* TikTok WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4BC9081C0497C2000AC034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Georgios Pessios";
+				TargetAttributes = {
+					DC4BC90F1C0497C2000AC034 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DC4BC9231C0497C3000AC034 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DC4BC90F1C0497C2000AC034;
+					};
+					DC4BC92E1C0497C3000AC034 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DC4BC90F1C0497C2000AC034;
+					};
+					DC4BC9371C0497C3000AC034 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DC4BC9461C0497C3000AC034 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DC4BC90B1C0497C2000AC034 /* Build configuration list for PBXProject "TikTok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4BC9071C0497C2000AC034;
+			productRefGroup = DC4BC9111C0497C3000AC034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4BC90F1C0497C2000AC034 /* TikTok */,
+				DC4BC9231C0497C3000AC034 /* TikTokTests */,
+				DC4BC92E1C0497C3000AC034 /* TikTokUITests */,
+				DC4BC9371C0497C3000AC034 /* TikTok WatchKit App */,
+				DC4BC9461C0497C3000AC034 /* TikTok WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4BC90E1C0497C2000AC034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC91E1C0497C3000AC034 /* LaunchScreen.storyboard in Resources */,
+				DC4BC91B1C0497C3000AC034 /* Assets.xcassets in Resources */,
+				DC4BC9191C0497C3000AC034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9221C0497C3000AC034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC92D1C0497C3000AC034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9361C0497C3000AC034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC9411C0497C3000AC034 /* Assets.xcassets in Resources */,
+				DC4BC93F1C0497C3000AC034 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9451C0497C3000AC034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC9511C0497C3000AC034 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4BC90C1C0497C2000AC034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC9161C0497C3000AC034 /* ViewController.swift in Sources */,
+				DC4BC9141C0497C3000AC034 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9201C0497C3000AC034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC9291C0497C3000AC034 /* TikTokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC92B1C0497C3000AC034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC9341C0497C3000AC034 /* TikTokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4BC9431C0497C3000AC034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4BC94F1C0497C3000AC034 /* ExtensionDelegate.swift in Sources */,
+				DC4BC94D1C0497C3000AC034 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4BC9261C0497C3000AC034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4BC90F1C0497C2000AC034 /* TikTok */;
+			targetProxy = DC4BC9251C0497C3000AC034 /* PBXContainerItemProxy */;
+		};
+		DC4BC9311C0497C3000AC034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4BC90F1C0497C2000AC034 /* TikTok */;
+			targetProxy = DC4BC9301C0497C3000AC034 /* PBXContainerItemProxy */;
+		};
+		DC4BC93B1C0497C3000AC034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4BC9371C0497C3000AC034 /* TikTok WatchKit App */;
+			targetProxy = DC4BC93A1C0497C3000AC034 /* PBXContainerItemProxy */;
+		};
+		DC4BC94A1C0497C3000AC034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4BC9461C0497C3000AC034 /* TikTok WatchKit Extension */;
+			targetProxy = DC4BC9491C0497C3000AC034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4BC9171C0497C3000AC034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4BC9181C0497C3000AC034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4BC91C1C0497C3000AC034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4BC91D1C0497C3000AC034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4BC93D1C0497C3000AC034 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4BC93E1C0497C3000AC034 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4BC9531C0497C3000AC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC4BC9541C0497C3000AC034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4BC9561C0497C3000AC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TikTok WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTok.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DC4BC9571C0497C3000AC034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TikTok WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTok.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DC4BC95A1C0497C3000AC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TikTok_WatchKit_Extension;
+				INFOPLIST_FILE = "TikTok WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTok.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DC4BC95B1C0497C3000AC034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TikTok_WatchKit_Extension;
+				INFOPLIST_FILE = "TikTok WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTok.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DC4BC95E1C0497C3000AC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TikTok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC4BC95F1C0497C3000AC034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TikTok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC4BC9611C0497C3000AC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TikTokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTok.app/TikTok";
+			};
+			name = Debug;
+		};
+		DC4BC9621C0497C3000AC034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TikTokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTok.app/TikTok";
+			};
+			name = Release;
+		};
+		DC4BC9641C0497C3000AC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TikTokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TikTok;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC4BC9651C0497C3000AC034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TikTokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.TikTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TikTok;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4BC90B1C0497C2000AC034 /* Build configuration list for PBXProject "TikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4BC9531C0497C3000AC034 /* Debug */,
+				DC4BC9541C0497C3000AC034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4BC9551C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTok WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4BC9561C0497C3000AC034 /* Debug */,
+				DC4BC9571C0497C3000AC034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4BC9591C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTok WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4BC95A1C0497C3000AC034 /* Debug */,
+				DC4BC95B1C0497C3000AC034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4BC95D1C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4BC95E1C0497C3000AC034 /* Debug */,
+				DC4BC95F1C0497C3000AC034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4BC9601C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4BC9611C0497C3000AC034 /* Debug */,
+				DC4BC9621C0497C3000AC034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4BC9631C0497C3000AC034 /* Build configuration list for PBXNativeTarget "TikTokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4BC9641C0497C3000AC034 /* Debug */,
+				DC4BC9651C0497C3000AC034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4BC9081C0497C2000AC034 /* Project object */;
+}
