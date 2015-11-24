@@ -14,6 +14,8 @@ class InterfaceController: WKInterfaceController {
 
   @IBOutlet var timer: WKInterfaceTimer!
   @IBOutlet var startStopButton: WKInterfaceButton!
+  var timerIsCountingDown = false
+  
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -31,10 +33,25 @@ class InterfaceController: WKInterfaceController {
     }
   
   @IBAction func onButtonAction() {
-    let countdown: NSTimeInterval = 60
-    let date = NSDate(timeIntervalSinceNow: countdown)
-    timer.setDate(date)
-    timer.start()
+    
+    if timerIsCountingDown{
+    
+      timer.stop()
+      startStopButton.setTitle("Start")
+    
+    
+    }else{
+      
+      let countdown: NSTimeInterval = 60
+      let date = NSDate(timeIntervalSinceNow: countdown)
+      timer.setDate(date)
+      timer.start()
+      startStopButton.setTitle("Stop")
+    
+    }
+    
+    
+    timerIsCountingDown = !timerIsCountingDown
   
   }
   
