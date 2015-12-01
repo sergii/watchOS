@@ -11,6 +11,7 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+  @IBOutlet var labelCalculatorDisplay: WKInterfaceLabel!
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -28,4 +29,37 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+  @IBAction func numberTapped (sender: AnyObject){
+  
+  
+  }
+  
+  @IBAction func operationTapped (sender: AnyObject){
+  
+  
+  
+  }
+  
+  @IBAction func equalsTapped (sender: AnyObject){
+  
+  
+  
+  }
+  
+  @IBAction func decimalPointTapped (sender: AnyObject){
+  
+  
+  
+  }
+  
+  @IBAction func positiveOrNegativeTapped (sender: AnyObject){
+  
+  
+  }
+  
+  @IBAction func acTapped (sender: AnyObject){
+  
+  
+  
+  }
 }

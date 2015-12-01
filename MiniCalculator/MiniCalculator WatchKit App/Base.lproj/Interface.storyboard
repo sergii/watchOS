@@ -19,16 +19,28 @@
                             <items>
                                 <button width="0.25" height="1" alignment="left" title="AC" id="nDd-eb-Ht0">
                                     <color key="titleColor" red="0.91447368419999997" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="acTapped:" destination="AgC-eL-Hgc" id="Y9J-K2-83x"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="+/-" id="u6k-21-Vc4">
                                     <color key="titleColor" red="0.91447368419999997" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="14"/>
+                                    <connections>
+                                        <action selector="positiveOrNegativeTapped:" destination="AgC-eL-Hgc" id="rlt-6W-pE0"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="%" id="MRk-Tx-DUn">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="operationTapped:" destination="AgC-eL-Hgc" id="Kit-ks-4kY"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="/" id="Nra-WI-vaS">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="operationTapped:" destination="AgC-eL-Hgc" id="NFa-ZG-2ey"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -36,15 +48,27 @@
                             <items>
                                 <button width="0.25" height="1" alignment="left" title="7" id="NJn-3b-S4b">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="UHe-CA-Ual"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="8" id="ZM9-LF-aAn">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="SwD-We-FtJ"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="9" id="9i9-Op-JTH">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="Vcg-Kl-M4T"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="x" id="NhB-aV-OQz">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="operationTapped:" destination="AgC-eL-Hgc" id="4Pd-Is-40d"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -52,15 +76,27 @@
                             <items>
                                 <button width="0.25" height="1" alignment="left" title="4" id="pNW-ZC-eA9">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="bG9-cZ-hyl"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="5" id="NRt-d9-lBC">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="q1p-LU-Hxw"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="6" id="Nm9-n6-nCL">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="nrG-sT-Pcj"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="-" id="Yiz-W3-24u">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="operationTapped:" destination="AgC-eL-Hgc" id="Ugi-18-ek3"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -68,15 +104,27 @@
                             <items>
                                 <button width="0.25" height="1" alignment="left" title="1" id="Df4-Tq-gAo">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="N3I-Xu-34U"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="2" id="6sc-BU-3io">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="6nj-aQ-Nwq"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="3" id="jq4-5b-geq">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="mE2-k3-VO2"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="+" id="Xgd-Fg-jOH">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="operationTapped:" destination="AgC-eL-Hgc" id="QUL-5s-B3s"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -84,16 +132,28 @@
                             <items>
                                 <button width="0.5" height="1" alignment="left" title="0" id="7ty-3p-Ndd">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="numberTapped:" destination="AgC-eL-Hgc" id="Uog-kh-JKy"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="," id="nLJ-vw-lrb">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="decimalPointTapped:" destination="AgC-eL-Hgc" id="MOG-to-rc2"/>
+                                    </connections>
                                 </button>
                                 <button width="0.25" height="1" alignment="left" title="=" id="Xtz-37-iKK">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="equalsTapped:" destination="AgC-eL-Hgc" id="D11-QN-4kk"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="labelCalculatorDisplay" destination="NCp-lh-hFi" id="m24-6I-RAv"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="305" y="357"/>
