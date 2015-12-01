@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB59AB71C0DCF0200A65EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB59AB61C0DCF0200A65EBD /* AppDelegate.swift */; };
+		DCB59AB91C0DCF0200A65EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB59AB81C0DCF0200A65EBD /* ViewController.swift */; };
+		DCB59ABC1C0DCF0200A65EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB59ABA1C0DCF0200A65EBD /* Main.storyboard */; };
+		DCB59ABE1C0DCF0200A65EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB59ABD1C0DCF0200A65EBD /* Assets.xcassets */; };
+		DCB59AC11C0DCF0200A65EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB59ABF1C0DCF0200A65EBD /* LaunchScreen.storyboard */; };
+		DCB59AC61C0DCF0200A65EBD /* MiniCalculator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DCB59AC51C0DCF0200A65EBD /* MiniCalculator WatchKit App.app */; };
+		DCB59ACC1C0DCF0200A65EBD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB59ACA1C0DCF0200A65EBD /* Interface.storyboard */; };
+		DCB59ACE1C0DCF0200A65EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB59ACD1C0DCF0200A65EBD /* Assets.xcassets */; };
+		DCB59AD51C0DCF0200A65EBD /* MiniCalculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DCB59AD41C0DCF0200A65EBD /* MiniCalculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCB59ADA1C0DCF0200A65EBD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB59AD91C0DCF0200A65EBD /* InterfaceController.swift */; };
+		DCB59ADC1C0DCF0200A65EBD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB59ADB1C0DCF0200A65EBD /* ExtensionDelegate.swift */; };
+		DCB59ADE1C0DCF0200A65EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB59ADD1C0DCF0200A65EBD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB59AC71C0DCF0200A65EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB59AAB1C0DCF0200A65EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB59AC41C0DCF0200A65EBD;
+			remoteInfo = "MiniCalculator WatchKit App";
+		};
+		DCB59AD61C0DCF0200A65EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB59AAB1C0DCF0200A65EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB59AD31C0DCF0200A65EBD;
+			remoteInfo = "MiniCalculator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCB59AE51C0DCF0200A65EBD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCB59AD51C0DCF0200A65EBD /* MiniCalculator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59AE91C0DCF0200A65EBD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DCB59AC61C0DCF0200A65EBD /* MiniCalculator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCB59AB31C0DCF0200A65EBD /* MiniCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB59AB61C0DCF0200A65EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB59AB81C0DCF0200A65EBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCB59ABB1C0DCF0200A65EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB59ABD1C0DCF0200A65EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB59AC01C0DCF0200A65EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB59AC21C0DCF0200A65EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB59AC51C0DCF0200A65EBD /* MiniCalculator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniCalculator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB59ACB1C0DCF0200A65EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DCB59ACD1C0DCF0200A65EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB59ACF1C0DCF0200A65EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB59AD41C0DCF0200A65EBD /* MiniCalculator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MiniCalculator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB59AD91C0DCF0200A65EBD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DCB59ADB1C0DCF0200A65EBD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DCB59ADD1C0DCF0200A65EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB59ADF1C0DCF0200A65EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB59AB01C0DCF0200A65EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59AD11C0DCF0200A65EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB59AAA1C0DCF0200A65EBD = {
+			isa = PBXGroup;
+			children = (
+				DCB59AB51C0DCF0200A65EBD /* MiniCalculator */,
+				DCB59AC91C0DCF0200A65EBD /* MiniCalculator WatchKit App */,
+				DCB59AD81C0DCF0200A65EBD /* MiniCalculator WatchKit Extension */,
+				DCB59AB41C0DCF0200A65EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB59AB41C0DCF0200A65EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB59AB31C0DCF0200A65EBD /* MiniCalculator.app */,
+				DCB59AC51C0DCF0200A65EBD /* MiniCalculator WatchKit App.app */,
+				DCB59AD41C0DCF0200A65EBD /* MiniCalculator WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB59AB51C0DCF0200A65EBD /* MiniCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DCB59AB61C0DCF0200A65EBD /* AppDelegate.swift */,
+				DCB59AB81C0DCF0200A65EBD /* ViewController.swift */,
+				DCB59ABA1C0DCF0200A65EBD /* Main.storyboard */,
+				DCB59ABD1C0DCF0200A65EBD /* Assets.xcassets */,
+				DCB59ABF1C0DCF0200A65EBD /* LaunchScreen.storyboard */,
+				DCB59AC21C0DCF0200A65EBD /* Info.plist */,
+			);
+			path = MiniCalculator;
+			sourceTree = "<group>";
+		};
+		DCB59AC91C0DCF0200A65EBD /* MiniCalculator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DCB59ACA1C0DCF0200A65EBD /* Interface.storyboard */,
+				DCB59ACD1C0DCF0200A65EBD /* Assets.xcassets */,
+				DCB59ACF1C0DCF0200A65EBD /* Info.plist */,
+			);
+			path = "MiniCalculator WatchKit App";
+			sourceTree = "<group>";
+		};
+		DCB59AD81C0DCF0200A65EBD /* MiniCalculator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCB59AD91C0DCF0200A65EBD /* InterfaceController.swift */,
+				DCB59ADB1C0DCF0200A65EBD /* ExtensionDelegate.swift */,
+				DCB59ADD1C0DCF0200A65EBD /* Assets.xcassets */,
+				DCB59ADF1C0DCF0200A65EBD /* Info.plist */,
+			);
+			path = "MiniCalculator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB59AB21C0DCF0200A65EBD /* MiniCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB59AEA1C0DCF0200A65EBD /* Build configuration list for PBXNativeTarget "MiniCalculator" */;
+			buildPhases = (
+				DCB59AAF1C0DCF0200A65EBD /* Sources */,
+				DCB59AB01C0DCF0200A65EBD /* Frameworks */,
+				DCB59AB11C0DCF0200A65EBD /* Resources */,
+				DCB59AE91C0DCF0200A65EBD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB59AC81C0DCF0200A65EBD /* PBXTargetDependency */,
+			);
+			name = MiniCalculator;
+			productName = MiniCalculator;
+			productReference = DCB59AB31C0DCF0200A65EBD /* MiniCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB59AC41C0DCF0200A65EBD /* MiniCalculator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB59AE61C0DCF0200A65EBD /* Build configuration list for PBXNativeTarget "MiniCalculator WatchKit App" */;
+			buildPhases = (
+				DCB59AC31C0DCF0200A65EBD /* Resources */,
+				DCB59AE51C0DCF0200A65EBD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB59AD71C0DCF0200A65EBD /* PBXTargetDependency */,
+			);
+			name = "MiniCalculator WatchKit App";
+			productName = "MiniCalculator WatchKit App";
+			productReference = DCB59AC51C0DCF0200A65EBD /* MiniCalculator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DCB59AD31C0DCF0200A65EBD /* MiniCalculator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB59AE21C0DCF0200A65EBD /* Build configuration list for PBXNativeTarget "MiniCalculator WatchKit Extension" */;
+			buildPhases = (
+				DCB59AD01C0DCF0200A65EBD /* Sources */,
+				DCB59AD11C0DCF0200A65EBD /* Frameworks */,
+				DCB59AD21C0DCF0200A65EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MiniCalculator WatchKit Extension";
+			productName = "MiniCalculator WatchKit Extension";
+			productReference = DCB59AD41C0DCF0200A65EBD /* MiniCalculator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB59AAB1C0DCF0200A65EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Georgios Pessios";
+				TargetAttributes = {
+					DCB59AB21C0DCF0200A65EBD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DCB59AC41C0DCF0200A65EBD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DCB59AD31C0DCF0200A65EBD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DCB59AAE1C0DCF0200A65EBD /* Build configuration list for PBXProject "MiniCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB59AAA1C0DCF0200A65EBD;
+			productRefGroup = DCB59AB41C0DCF0200A65EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB59AB21C0DCF0200A65EBD /* MiniCalculator */,
+				DCB59AC41C0DCF0200A65EBD /* MiniCalculator WatchKit App */,
+				DCB59AD31C0DCF0200A65EBD /* MiniCalculator WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB59AB11C0DCF0200A65EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB59AC11C0DCF0200A65EBD /* LaunchScreen.storyboard in Resources */,
+				DCB59ABE1C0DCF0200A65EBD /* Assets.xcassets in Resources */,
+				DCB59ABC1C0DCF0200A65EBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59AC31C0DCF0200A65EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB59ACE1C0DCF0200A65EBD /* Assets.xcassets in Resources */,
+				DCB59ACC1C0DCF0200A65EBD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59AD21C0DCF0200A65EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB59ADE1C0DCF0200A65EBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB59AAF1C0DCF0200A65EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB59AB91C0DCF0200A65EBD /* ViewController.swift in Sources */,
+				DCB59AB71C0DCF0200A65EBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59AD01C0DCF0200A65EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB59ADC1C0DCF0200A65EBD /* ExtensionDelegate.swift in Sources */,
+				DCB59ADA1C0DCF0200A65EBD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB59AC81C0DCF0200A65EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB59AC41C0DCF0200A65EBD /* MiniCalculator WatchKit App */;
+			targetProxy = DCB59AC71C0DCF0200A65EBD /* PBXContainerItemProxy */;
+		};
+		DCB59AD71C0DCF0200A65EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB59AD31C0DCF0200A65EBD /* MiniCalculator WatchKit Extension */;
+			targetProxy = DCB59AD61C0DCF0200A65EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB59ABA1C0DCF0200A65EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB59ABB1C0DCF0200A65EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB59ABF1C0DCF0200A65EBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB59AC01C0DCF0200A65EBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB59ACA1C0DCF0200A65EBD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB59ACB1C0DCF0200A65EBD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB59AE01C0DCF0200A65EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB59AE11C0DCF0200A65EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB59AE31C0DCF0200A65EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MiniCalculator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.MiniCalculator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DCB59AE41C0DCF0200A65EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MiniCalculator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.MiniCalculator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DCB59AE71C0DCF0200A65EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MiniCalculator_WatchKit_Extension;
+				INFOPLIST_FILE = "MiniCalculator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.MiniCalculator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DCB59AE81C0DCF0200A65EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MiniCalculator_WatchKit_Extension;
+				INFOPLIST_FILE = "MiniCalculator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.MiniCalculator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DCB59AEB1C0DCF0200A65EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.MiniCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCB59AEC1C0DCF0200A65EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pessios.MiniCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB59AAE1C0DCF0200A65EBD /* Build configuration list for PBXProject "MiniCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB59AE01C0DCF0200A65EBD /* Debug */,
+				DCB59AE11C0DCF0200A65EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB59AE21C0DCF0200A65EBD /* Build configuration list for PBXNativeTarget "MiniCalculator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB59AE31C0DCF0200A65EBD /* Debug */,
+				DCB59AE41C0DCF0200A65EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB59AE61C0DCF0200A65EBD /* Build configuration list for PBXNativeTarget "MiniCalculator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB59AE71C0DCF0200A65EBD /* Debug */,
+				DCB59AE81C0DCF0200A65EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB59AEA1C0DCF0200A65EBD /* Build configuration list for PBXNativeTarget "MiniCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB59AEB1C0DCF0200A65EBD /* Debug */,
+				DCB59AEC1C0DCF0200A65EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB59AAB1C0DCF0200A65EBD /* Project object */;
+}
