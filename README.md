@@ -13,5 +13,9 @@ From zero to hero on watchOS. A repo that will go step by step from a simple "He
 
 > **Description**: A 60 seconds countdown timer can be set ON/OFF from a WKInterfaceButton action.
 
+* [MiniCalculator](https://github.com/gpessios/watchOS/tree/master/MiniCalculator)
+
+> **Description**: Mini calculator written in Swift for the watchOS.
+
 ### Author
 * [Georgios Pessios](http://gpessios.com/)
